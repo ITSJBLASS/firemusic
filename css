@@ -1,0 +1,155 @@
+body {
+    background-color: black;
+    padding: 0%;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    background: rgb(211, 29, 29);
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover {
+    background-color: black;
+}
+
+hr {
+    color: rgb(141, 23, 23);
+    height: 1px;
+    background-color: red;
+    border-style: none;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    font-style: var(0px);
+    font-size: 25px;
+    background-color: none;
+    backdrop-filter: 20%;
+    background-position: 100%;
+}
+
+p {
+    color: aliceblue;
+    text-align: center;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+    text-decoration: overline;
+}
+
+.list {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    border-style: groove;
+}
+
+.imagen1 {
+    display: flex;
+    justify-content: center;
+    background: none;
+    align-items: center;
+    padding: 0px;
+    height: max-content;
+    background-color: #adadad;
+}
+
+h3 {
+    text-align: center;
+    color: aliceblue;
+    border-style: solid;
+    font-size: 20px;
+}
+
+.playlist {
+    color: rgb(235, 227, 227);
+    text-align: center;
+    text-decoration: underline;
+}
+
+a {
+    color: aliceblue;
+    border-style: solid;
+    border-color: rgb(211, 29, 29);
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.muestra {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+}
+
+img {
+    height: auto;
+    width: auto;
+    max-height: 50%;
+    max-width: 50%;
+}
+
+h4 {
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.Logos {
+    position: relative;
+    width: 25vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+}
+
+h5 {
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 10ch;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.map {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+}
+
+h6 {
+    text-align: center;
+    font-size: 14px;
+    color: darkred;
+    border-style: double;
+}
